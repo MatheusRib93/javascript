@@ -1,0 +1,66 @@
+let nome  ="matheus felipe";
+let idade = "33;"
+let curso = "analise e desenvolvimento de sistemas";
+let mensalidade = "R$350,00";
+let vagasdisponiveis = 10;
+let possuidesconto = true
+
+console.log("dados do candidato");
+console.log("nome :" + nome );
+console.log("idade:" + idade 
+    "anos");
+console.log("valor da mensalidade:R$ " +mensalidade);
+console.log("vagas disponiveis:" + vagas disponiveis);
+console.log("possui desconto" + possui desconto);
+
+if(idade<16);{
+    console.log("inscrição não permitida");
+}else if(idade>=16 && idade<=17){
+
+    console.log("necessita da
+        autorização dos pais");
+
+}else{
+    console.log("inscrição permitida");
+
+}
+
+if(vagas disponiveis> 0 ){
+
+    console.log("existem vagas
+         disponiveis");
+}else
+    console.log("não existem 
+        vagas disponiveis");
+
+        let valor final;
+
+        if (possui desconto=== true){
+
+            valor final = mensalidade -
+            (mensalidade * 15 / 100);
+
+            console.log("desconto de
+                 15% aplicado");
+
+{else
+
+    valor final = mensalidade;
+}
+console.log("cadidato não 
+    possui desconto");
+}
+console.log("mensalidade 
+original:R$" + mensalidade.toFixede(2);))
+
+if(mensalidade <= 300){
+    console.log("classsicação:
+        curso ecolomico");
+    
+}else{
+    console.log("classificação:
+    curso premium");
+}
+
+console.log("=====================
+      ====================");
